@@ -48,7 +48,5 @@ body,html{
     font-weight: bold;
 }
 
-.styled-table tbody tr.bronzecolor {
-    /*font-weight: bold;*/
-    color: #B87333;
-}
+.styled-table tbody tr.bronzecolor { /*font-weight: bold;*/ color: #B87333; }
+.styled-table tbody tr.silvercollor { /*font-weight: bold;*/ color: #CDD5E0; }
