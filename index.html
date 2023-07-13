@@ -53,6 +53,12 @@
             margin:auto;
         }
 
+        #formato{
+            background-color: #750000;
+            color: #ffffff;
+            text-align: center;
+        }
+
         .styled-table{
             border-collapse: collapse; /*para garantir que não haja espaço entre as bordas da célula*/
             font-size: 0.9em;
@@ -60,7 +66,7 @@
         .styled-table thead tr{
             background-color: #800303;
             color: #ffffff;
-            text-align: left;
+            text-align: center;
          }
          .styled-table th, .styled-table td {
             padding: 10px 10px;
@@ -79,6 +85,7 @@
     <table class="styled-table">
        
         <thead>
+            <tr id="formato"> <th colspan="2">COMMANDER</th> </tr>
             <tr> <th>NICKNAME</th> <th>PONTUAÇÃO</th> </tr>
         </thead>
 
